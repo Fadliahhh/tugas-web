@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Toko Online Dessert</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="beranda/logo.jpeg" type="image/jpeg">
+
+</head>
+<body>
+    <header>
+        <h1>Contact</h1>
+        <nav>
+            <ul>
+                <li><a href="beranda.html">
+                    <img src="beranda/beranda.png" alt="Beranda" class="beranda-icon"></a></li>
+                <li><a href="produk.html">
+                    <img src="beranda/produk.png" alt="Produk" class="produk-icon"></a></li>
+                <li><a href="keranjang.html">
+                    <img src="beranda/shop.png" alt="Keranjang Belanja" class="keranjang-icon"></a></li>
+                <li><a href="kontak.html">
+                    <img src="beranda/kontak.png" alt="Kontak" class="kontak-icon"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <section class="contact">
+            <h2>Hubungi Kami</h2>
+            <p>Jika Anda memiliki pertanyaan atau komentar, jangan ragu untuk menghubungi kami.</p>
+            <p>Silakan isi formulir di bawah ini atau hubungi kami melalui email atau telepon:</p>
+        
+            <form action="proses_formulir.php" method="post">
+                <div class="form-group">
+                    <label for="nama">Nama:</label>
+                    <input type="text" id="nama" name="nama" required>
+                </div>
+            
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+            
+                <div class="form-group">
+                    <label for="pesan">Pesan:</label>
+                    <textarea id="pesan" name="pesan" rows="4" required></textarea>
+                </div>
+                
+                <button type="submit" class="submit-button">Kirim</button>
+            </form>
+            
+            <p class="contact-info">Anda juga bisa menghubungi kami melalui email di <a href="mailto:info@dessert.com">info@dessert.com</a></p>
+            <p class="contact-info">Atau melalui telepon di +62-123-456-7890</p>
+        </section>
+</body>
+</html>

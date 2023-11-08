@@ -1,0 +1,141 @@
+/* style.css */
+body {
+    font-family: georgia, Helvetica;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db; /* Warna biru contoh */
+    background-image: url('https://i.pinimg.com/564x/72/04/87/720487812c5c2966f84b920d89276698.jpg'); /* Gantilah 'path-to-texture-image.jpg' dengan path gambar tekstur yang ingin Anda gunakan */
+    background-repeat: repeat; /* Mengulang tekstur horizontal dan vertikal */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+img.logo {
+    width: 150px;
+    margin: 10px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none; 
+}
+
+nav ul li a:hover {
+    text-decoration: underline; 
+}
+
+img.keranjang-icon {
+    width:100px; 
+    height:100px;
+}
+
+img.beranda-icon {
+    width:100px; 
+    height:100px;
+}
+
+img.produk-icon {
+    width:100px; 
+    height:100px;
+}
+
+img.kontak-icon {
+    width:100px; 
+    height:100px;
+}
+
+section {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product {
+    background-color: white;
+    border: 5px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+}
+
+.product-image {
+    width: 100%; 
+    height: auto; 
+}
+
+.product plus-image {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.product {
+    background-image: url('https://i.pinimg.com/564x/b1/6d/0a/b16d0ab2802bc0fea500621836975db3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.price {
+    color: #333;
+    font-weight: bold;
+}
+
+.buy-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+.product-description {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    
+}
+
+.product-title {
+    font-size: 24px;
+    color: #333;
+}
+
+.product-info {
+    font-size: 16px;
+    color: #666;
+    margin: 10px 0;
+}
+
+.product-features {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #666;
+}
+
+.product-price {
+    font-size: 20px;
+    color: #cc1e8c;
+}
+
